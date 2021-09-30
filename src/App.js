@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import AppRouter from './approuter/AppRouter';
+import {useState} from 'react';
+import { MainContext } from './context/MainContext';
+
 
 function App() {
+  const [isLogin, setIsLogin] = useState(false);
+
+  const [cardInfo, setCardInfo] = useState();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainContext.Provider value={{isLogin, setIsLogin, cardInfo, setCardInfo}}>
+      <AppRouter />
+      </MainContext.Provider>
+
     </div>
   );
 }
