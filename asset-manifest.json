@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FireBlog-App/static/css/main.a617e044.chunk.css",
+    "main.js": "/FireBlog-App/static/js/main.8edbe8c2.chunk.js",
+    "main.js.map": "/FireBlog-App/static/js/main.8edbe8c2.chunk.js.map",
+    "runtime-main.js": "/FireBlog-App/static/js/runtime-main.1fb397d2.js",
+    "runtime-main.js.map": "/FireBlog-App/static/js/runtime-main.1fb397d2.js.map",
+    "static/js/2.0edbfb57.chunk.js": "/FireBlog-App/static/js/2.0edbfb57.chunk.js",
+    "static/js/2.0edbfb57.chunk.js.map": "/FireBlog-App/static/js/2.0edbfb57.chunk.js.map",
+    "static/js/3.14628401.chunk.js": "/FireBlog-App/static/js/3.14628401.chunk.js",
+    "static/js/3.14628401.chunk.js.map": "/FireBlog-App/static/js/3.14628401.chunk.js.map",
+    "index.html": "/FireBlog-App/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/FireBlog-App/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.0edbfb57.chunk.js.LICENSE.txt": "/FireBlog-App/static/js/2.0edbfb57.chunk.js.LICENSE.txt",
+    "static/media/blok.7e6674a5.png": "/FireBlog-App/static/media/blok.7e6674a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fb397d2.js",
+    "static/js/2.0edbfb57.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.8edbe8c2.chunk.js"
+  ]
+}
